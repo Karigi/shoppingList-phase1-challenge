@@ -7,7 +7,7 @@ const shoppingList = document.getElementById("shoppingList");
 const addButton = document.getElementById("addButton");
 const clearButton = document.getElementById("clearListButton");
 
-// Initialize the list from localStorage if available
+// Initialize the list from localStorage
 let items = JSON.parse(localStorage.getItem("shoppingList")) || []
 
 // Add button event listener
