@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    
+    <title>Shopping list</title>
+
+</head>
+
+<body>
+    
+    <!--container containing the shopping list and accessories-->
+    <div class="shoppingListContainer">
+        <h2>Shopping List</h2>
+        
+        <!--add input box-->
+        <input type="text" id="enterItems" placeholder="Enter item">
+        
+        <!--Add ADD BUTTON-->
+        <button class="btn" id="addButton">Add Item</button>
+
+        <div>
+            <!--Unordered list for adding items in shopping list-->
+            <ul id="shoppingList"></ul>
+            
+        </div>
+
+
+        <!--Clear list button-->
+        <button class="btn" id="clearListButton">Clear List</button>
+    </div>
+
+    <script src="index.js"></script>
+
+</body>
+</html>

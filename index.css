@@ -1,0 +1,63 @@
+.shoppingListContainer{
+    max-width: 600px;
+    margin: auto; /*center container*/
+    background-color: lightgrey;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px; /*rounded corners*/
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.shoppingListContainer h2{
+    text-align: center;
+    color: blueviolet;
+    margin-bottom: 20px;
+
+}
+
+#enterItems{
+    width: 50%; /*50% of container width*/
+    padding: 10px;
+    border: 1px blueviolet;
+    border-radius: 5px;
+}
+
+.btn{
+    padding: 10px;
+    width:auto;
+    background-color: rgb(55, 48, 151);
+    color: white;
+    border: none; /*remove default border*/
+    cursor: pointer;/*change cursor on hover*/
+    border-radius: 5px;
+}
+
+.btn:hover{
+    background: blueviolet;
+}
+
+.fa-arrow-right{
+    color: blueviolet;
+}
+
+#shoppingList{
+    list-style-type: none;
+}
+
+/* Style each list item */
+.list-item {
+    padding: 5px;                /* Add padding inside the list item */
+    background: rgb(55, 48, 151);/*blue background */
+    margin: 5px 0; 
+    color: white;               /* Add space between list items */
+    display: flex;                /* Flex layout for alignment */
+    justify-content: space-between; /* Space out list content */
+    align-items: center;          /* Center align items */
+    border-radius: 5px;           /* Rounded corners */
+}
+
+/* Style for purchased items */
+.purchased {
+    text-decoration: line-through; /* Strike-through for purchased items */
+    background: rgb(55, 48, 151); /* Light blue background */
+}
